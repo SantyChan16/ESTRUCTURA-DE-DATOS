@@ -43,26 +43,26 @@ const agenda = (opciones,nombre,numero) =>{
             console.log("El numero que selecciono no se encuentra en las opciones, ingreso una opccion")
     }
 };
-agenda("1","Enrique","998-335-2665");
+agenda("1","Angel","998-335-2665");
 console.log("=====================================================");
-console.log("Se ha añadido un contacto a la agenda");
+console.log("Guardado");
 contactos();
 console.log("=====================================================");
-agenda("1","Irbing","998-1865-680");
+agenda("1","fer","998-1865-680");
 console.log("=====================================================");
-console.log("Se ha añadido un contacto a la agenda");
+console.log("Guardado");
 contactos();
 console.log("=====================================================");
 agenda("1","Armando","998-148-7166");
 console.log("=====================================================");
-console.log("Se ha añadido un contacto a la agenda");
+console.log("Guardado");
 contactos();
 console.log("=====================================================");
-agenda("2","Enrique Javier","274-115-5808");
+agenda("2","Manuel","274-115-5808");
 console.log("=====================================================");
-console.log("Se ha editado un contacto de la agenda");
+console.log("Editado");
 contactos();
 console.log("=====================================================");
-agenda("3","Enrique Javier","274-115-5808");
-console.log("Se ha eliminado un contacto de la agenda");
+agenda("3","fer","274-115-5808");
+console.log("Eliminado");
 contactos();
