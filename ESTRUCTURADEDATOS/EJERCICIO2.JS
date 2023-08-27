@@ -22,10 +22,10 @@ const contactos = () => {
 }
 
 const agenda = (opciones,nombre,numero) =>{
-    console.log("Selecciones accion a realizar en la agenda: ");
+    console.log("Selecciones accion a realizar en la agenda: \n");
     console.log("1.- Agregar contacto")
     console.log("2.- Editar contacto")
-    console.log("3.- Eliminar contacto")
+    console.log("3.- Eliminar contacto\n")
 
     let eleccion = opciones;
 
@@ -43,26 +43,27 @@ const agenda = (opciones,nombre,numero) =>{
             console.log("El numero que selecciono no se encuentra en las opciones, ingreso una opccion")
     }
 };
+console.log("")
 agenda("1","Angel","998-335-2665");
-console.log("=====================================================");
-console.log("Guardado");
+
+console.log("Se a guardado\n");
 contactos();
-console.log("=====================================================");
+
 agenda("1","fer","998-1865-680");
-console.log("=====================================================");
-console.log("Guardado");
+
+console.log("Se a guardado");
 contactos();
-console.log("=====================================================");
+
 agenda("1","Armando","998-148-7166");
-console.log("=====================================================");
-console.log("Guardado");
+
+console.log("Se a guardado");
 contactos();
-console.log("=====================================================");
+
 agenda("2","Manuel","274-115-5808");
-console.log("=====================================================");
-console.log("Editado");
+
+console.log("Se a editado\n");
 contactos();
-console.log("=====================================================");
+
 agenda("3","fer","274-115-5808");
-console.log("Eliminado");
+console.log("Se a eliminado\n");
 contactos();
