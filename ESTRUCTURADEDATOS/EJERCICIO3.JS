@@ -20,14 +20,15 @@ const Boleta = () => {
 }
 Boleta();
 
-const agregar = (materia) => {
-    Materias.push(materia)
+const agregar = (materia,cali) => {
+    Materias.push(materia);
+    calificaciones.push(cali);
 };
 
-console.log("Desea agregar a un estudiante: \n")
+console.log("Desea agregar una matera: \n")
 
 const editar = (opcion,materia,cali) => {
-    console.log("Ingrese el nombre del alumno")
+    console.log("Ingrese el nombre de la materia")
 
     let eleccion = opcion;
     
@@ -39,5 +40,5 @@ const editar = (opcion,materia,cali) => {
             break;
     }
 };
-editar("1", "Algebra");
+editar("1", "Algebra",0);
 Boleta();
