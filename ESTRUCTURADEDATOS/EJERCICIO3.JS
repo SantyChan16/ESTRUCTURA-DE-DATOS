@@ -1,3 +1,4 @@
+
 const estudiante = [ "Brian","Angel","Irving","Sanchez","Javier" ];
 const Materias = [ "Matematicas,","Histotia,","Ingles," ];
 
@@ -33,10 +34,7 @@ const agregar = (materia, cali) => {
     };
 };
 
-const modficar = (cali) => {
-
-    
-
+const modficar = () => {
 
 };
 
@@ -52,7 +50,7 @@ const editar = (opcion,materia,cali) => {
             agregar(materia,cali);
             break; 
         case '2':
-            
+            modficar(cali);
                 break; 
         default:
             break;
@@ -60,9 +58,8 @@ const editar = (opcion,materia,cali) => {
 };
 
 console.log("Desea agregar una matera y calificacion: \n");
-editar("1", "Algebra", "8");
+editar("1", "Algebra", "9");
 Boleta();
 console.log("Desea editar una calificacion ? : \n");
-modficar();
-
-
+modficar("2","8");
+Boleta();
