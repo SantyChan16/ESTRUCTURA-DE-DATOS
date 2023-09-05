@@ -1,4 +1,4 @@
-let text = [
+let texto = [
     ["H"],
     ["o"],
     ["l"],
@@ -6,36 +6,36 @@ let text = [
 ];
 
 
-const stringText = () => {
-    let message = "";
-    for (let i = 0; i <= text.length - 1; i++){
-        message = message + text[i];
+const cadena = () => {
+    let mensaje = "";
+    for (let i = 0; i <= texto.length - 1; i++){
+        mensaje = mensaje + texto[i];
     }
-    console.log(message);
+    console.log(mensaje);
 }
 
-const addChar = (letter) => {
-    text.push([letter]);
+const agregar = (ultima) => { 
+    texto.push([ultima]);
 }
 
-const deleteChar = (position) => {
-    text.splice(position, 1)
+const eliminar = (posicion) => {
+    texto.splice(posicion, 1)
 }
 
-const editChar = (letter, position) => {
-    let i = parseInt(position);
+const editar = (ultima, posicion) => {
+    let i = parseInt(posicion);
     let j = 0;
     
-    text[i][0] = letter;
+    texto[i][0] = ultima;
 }
 
 
-addChar("!");
-stringText();
+agregar("!");
+cadena();
 console.log("=============================");
-deleteChar(3);
-stringText();
+eliminar(3);
+cadena();
 console.log("=============================");
-editChar("a", 3);
-stringText();
+editar("a", 3);
+cadena();
 console.log("=============================");
