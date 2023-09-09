@@ -31,7 +31,7 @@ class OniichanPC {
     mostrarInfo() {
         console.log(this.infoPc);
     }
-    }
+}
     
     const pc1 = new OniichanPC(
     "Gamer",
