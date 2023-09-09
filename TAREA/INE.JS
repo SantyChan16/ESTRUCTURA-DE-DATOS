@@ -1,0 +1,7 @@
+class INE{
+    constructor(nombre,){
+
+    }
+
+
+}

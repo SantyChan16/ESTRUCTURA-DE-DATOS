@@ -33,12 +33,10 @@ const biblioteca ={
 
 }
 
-for (let i = 0; i < biblioteca.libros.length; i++){
-    console.log(biblioteca.libros[i].Nombre+ "" + libros[i].Autor)
-}
+
 
 
 biblioteca.agregar("El Gran Gatsby", "F. Scott Fitzgerald", 1925);
 biblioteca.agregar("CRIEMN Y CASTIGO", "F. Scott Fitzgerald", 1925);
 biblioteca.eliminar("El Gran Gatsby");
-biblioteca.editar("El Gran Gatsby", "F. Scott", 1588)
+biblioteca.editar("El Gran Gatsby", "F. Scott", 1588);
