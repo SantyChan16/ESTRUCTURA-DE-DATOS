@@ -32,10 +32,9 @@ const editar = (ultima, posicion) => {
 
 agregar("!");
 cadena();
-console.log("=============================");
+
 eliminar(3);
 cadena();
-console.log("=============================");
+
 editar("a", 3);
 cadena();
-console.log("=============================");
