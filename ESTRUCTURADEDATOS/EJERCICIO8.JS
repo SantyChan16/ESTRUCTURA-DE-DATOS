@@ -8,8 +8,4 @@ agregar(Pila){
     this.Mipila.push(Pila);
 }
 
-
-
-
-
 }
